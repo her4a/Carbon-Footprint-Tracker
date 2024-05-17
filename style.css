@@ -1,0 +1,107 @@
+/* Global styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light background */
+    color: #333; /* Dark text */
+}
+
+h1 {
+    text-align: center;
+    color: #00cc99; /* Light green heading */
+    margin-top: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+/* Form styling */
+form {
+    background-color: #fff; /* White form background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #666; /* Dark gray label text */
+}
+
+input[type="number"],
+input[type="text"],
+select {
+    width: calc(100% - 12px);
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc; /* Light gray border */
+    margin-bottom: 10px;
+    background-color: #f9f9f9; /* Light gray input background */
+    color: #333; /* Dark text */
+}
+
+button {
+    background-color: #00cc99; /* Light green button */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: auto;
+}
+
+button:hover {
+    background-color: #00997a; /* Dark green on hover */
+}
+
+/* Table styling */
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid #ccc; /* Light gray border */
+}
+
+th {
+    background-color: #f2f2f2; /* Light gray table header */
+    color: #333; /* Dark text */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Light gray row background */
+}
+
+/* New section styling */
+#carbonCalculation {
+    background-color: #fff; /* White background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#carbonCalculation h2 {
+    color: #00cc99; /* Light green heading */
+    margin-bottom: 10px;
+}
+
+#carbonCalculation p {
+    color: #333; /* Dark text */
+    font-size: 18px;
+    text-align: center;
+}
